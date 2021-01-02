@@ -1,0 +1,15 @@
+.loginPage {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30vh;
+}
+.loginPage > img {
+    margin-bottom: 100px;
+    width: 500px;
+}
+.loginPage__loginButton {
+    width: 300px;
+    margin: auto !important;
+    background-color: rgb(12,102,240) !important;
+}

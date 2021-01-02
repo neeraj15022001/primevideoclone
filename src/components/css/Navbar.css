@@ -1,0 +1,121 @@
+.navbar {
+    background-color: #1B2430;
+    color : #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.404);
+}
+
+.navbar__titles {
+    display: flex;
+    align-items: center;
+}
+.navbar__titles > img {
+    width: 130px;
+}
+.navbar__search {
+    display: flex;
+    border: 1px solid gray;
+    padding: 4px 20px 4px 4px;
+}
+.navbar__search__form >  input {
+    outline: none;
+    border: none;
+    background: none;
+    color: #ffffff;
+}
+.navbar__search > .MuiSvgIcon-root {
+    color : gray
+}
+
+.navbar__user {
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar__user__dropdown {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar__user__dropdown > p {
+    margin-left: 8px;
+}
+.navbar__avatar {
+    margin-left: 20px;
+}
+.navbar__titles__title {
+    margin-left: 20px;
+    transition: ease-in-out;
+}
+.navbar__titles__title:hover {
+    border-bottom: 2px solid white;
+}
+.navbar__titles__title--active {
+    border-bottom: 2px solid white;
+}
+.navbar__user__dropdown__menu {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    z-index: 1000;
+    width: 320px;
+    right: 27px;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #252E39;
+    font-size: small;
+}
+.navbar__user__dropdown__menu__left {
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.navbar__user__dropdown__menu__left > li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.navbar__user__dropdown__menu__right > li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.navbar__user__dropdown__menu__right__kids {
+    display: flex;
+    align-items: center;
+}
+.navbar__user__dropdown__menu__right__kids > p {
+    margin-left: 5px;
+}
+.navbar__user__dropdown__menu__right__new {
+    display: flex;
+    align-items: center;
+}
+.navbar__user__dropdown__menu__right__new > p {
+    margin-left: 5px;
+}
+
+.MuiSvgIcon-root {
+    color: white;
+}
+.navbar__user__overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+.navbar__dropdown__menu {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    min-width: 24px !important;
+    padding: 0px !important;
+    border-radius: 50% !important;
+}

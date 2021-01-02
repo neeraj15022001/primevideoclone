@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.footer > img {
+    width: 120px;
+}
+.footer__links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer__links > li {
+    margin-left: 5px;
+    padding: 10px;
+    color:#4E5E68;
+}
+.footer__links > li > a {
+    text-decoration: none;
+    color: #71AFC5;
+}
+
